@@ -32,10 +32,7 @@ namespace SMS.App.Views
             MessageBox.Show(message);
         }
 
-        public void ShowForm()
-        {
-            Show();
-        }
+       
 
         public event EventHandler LoginEvent;
     }

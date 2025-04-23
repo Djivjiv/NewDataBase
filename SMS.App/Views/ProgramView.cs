@@ -56,9 +56,15 @@ namespace SMS.App
             dataGridViewProgramList.DataSource = bindingSource;
         }
 
+
+
         public void SetMessage(string message)
         {
             MessageBox.Show(message);
+        }
+        public void ShowForm()
+        {
+            Show();
         }
     }
 }

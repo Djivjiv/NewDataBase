@@ -6,7 +6,6 @@
         string UserName { get; }
 
         event EventHandler LoginEvent;
-        void ShowForm();
         void ShowMessage(string message);
     }
 }

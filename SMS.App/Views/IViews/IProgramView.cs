@@ -14,5 +14,7 @@
 
         void GetProgramList(BindingSource bindingSource);
         void SetMessage(string message);
+
+        void ShowForm();
     }
 }
