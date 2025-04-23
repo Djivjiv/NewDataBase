@@ -25,10 +25,16 @@ namespace SMS.App.Views
         {
             LoginEvent?.Invoke(this, EventArgs.Empty);
         }
+        //new project
 
         public void ShowMessage(string message)
         {
             MessageBox.Show(message);
+        }
+
+        public void ShowForm()
+        {
+            Show();
         }
 
         public event EventHandler LoginEvent;
